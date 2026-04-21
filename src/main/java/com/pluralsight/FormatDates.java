@@ -10,6 +10,7 @@ public class FormatDates {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern(dateFormat);
 
         System.out.println(today.format(formatter));
-        sout
+        System.out.println(today);
+
     }
 }
