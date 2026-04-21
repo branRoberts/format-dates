@@ -11,6 +11,11 @@ public class FormatDates {
 
         System.out.println(today.format(formatter));
         System.out.println(today);
+        System.out.println("===========================================================");
 
+        LocalDate today2 = LocalDate.now();
+        String dateFormat2 =  "EEEEE dd, yyyy  hh:mm 'in GMT'";
+        DateTimeFormatter formatter2 = DateTimeFormatter.ofPattern(dateFormat2);
+        System.out.println(today2.format(formatter2));
     }
 }
